@@ -9,7 +9,7 @@ function App() {
         <Router>
             <Header/>
             <Switch>
-                <Route path={"/accueil"}><Home/></Route>
+                <Route path={"/"}><Home/></Route>
             </Switch>
             <Footer />
         </Router>
